@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 600px;
+  height: 70px;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin: 20px 445px;
+  /* background-color: #f2f2f2; */
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  flex-direction: column;
+  display: flex;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 600px;
+  height: 70px;
+  margin: 12px 25px;
+}
+
+/* middle contain */
+
+.middle-contain {
+  margin-top: 3vh;
+  display: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+input:hover {
+  background-color: #d8ddef;
+  border: 1px solid #000;
+}
+
+.inside-contain {
+  width: 39vw;
+  height: 7vh;
+  justify-content: space-between;
+  display: flex;
+}
+
+#Age {
+  height: 1vh;
+  border-radius: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+  width: 5vw;
+}
+
+#Country {
+  height: 1vh;
+  border-radius: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+  width: 5vw;
+}
+
+#Gender {
+  width: 120px;
+  height: 4.5vh;
+  border-radius: 5px;
+}
+
+#Desc {
+  margin-right: 34vw;
+  margin-bottom: 1.5vh;
+}
+
+#Text {
+  padding: 10px 25px;
+  margin: 10px 0;
+  width: 36vw;
+  height: 60px;
+  padding: 18px;
+  border-radius: 5px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+}
+
+/* bottom part */
+
+.desc {
+  margin-top: 10px;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+#arrow-down {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+#btn-cancel {
+  color: red;
+  margin-right: 1.5rem;
+}
+
+.btn-done {
+  color: lime;
+}
+
+.btn-search {
+  margin-left: -5rem;
+  color: #55dde0;
+  font-weight: 400;
+}
